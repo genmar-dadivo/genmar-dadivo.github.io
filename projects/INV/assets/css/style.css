@@ -125,11 +125,12 @@ body {
 }
 .book__page .page__content-credits {
   font-family: var(--title);
-    text-transform: uppercase;
-    font-size: calc(var(--base-size) * 1.2);
-    margin-bottom: calc(var(--baseline) * -3);
-    margin-top: calc(var(--baseline) * 5);
-    letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: calc(var(--base-size) * 1.2);
+  margin-bottom: calc(var(--baseline) * -1);
+  margin-top: calc(var(--baseline) * 1.7);
+  letter-spacing: 1px;
+  line-height: 1;
 }
 .book__page .page__content-credits span {
   display: block;
@@ -139,10 +140,11 @@ body {
 .book__page .page__content-copyright {
   position: absolute;
   width: calc(100% - (var(--baseline) * 2));
-  bottom: calc(var(--baseline) * 2);
+  bottom: calc(var(--baseline) * 1.2);
   font-family: var(--title);
   font-size: calc(var(--base-size) * 0.8);
   text-transform: uppercase;
+  line-height: 0.6;
 }
 .book__page .page__content-title {
   font-family: var(--title);
