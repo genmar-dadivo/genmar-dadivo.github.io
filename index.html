@@ -1,197 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<title>Calix Grae P. Dadivo</title>
-		<link rel="stylesheet" href="assets/css/reset.min.css">
-		<link rel="stylesheet" href="assets/css/style.css">
-		<link rel='stylesheet' href='assets/plugins/lb/css/lightbox.min.css'>
-		<link rel='stylesheet' href="assets/css/bootstrap.min.css">
-
+	  <meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<title> G |</title>
+		<!-- <title> G | Dadivo</title> -->
+		<meta content="" name="description">
+		<meta content="" name="keywords">
+		<link href="assets/img/favicon.png" rel="icon">
+		<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
+		<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+		<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+		<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+		<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+		<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
 	</head>
 	<body>
-		<section class="loading-screen">
-			<div class="custom-container">
-				<svg viewBox="0 0 100 100">
-					<circle cx="50" cy="50" r="25" stroke-width="8" fill="none"/>
-				</svg>
+		<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+		<header id="header" class="d-flex flex-column justify-content-center">
+			<nav id="navbar" class="navbar nav-menu">
+				<ul>
+					<li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+					<li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+					<li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+					<li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="hero" class="d-flex flex-column justify-content-center">
+			<div class="container" data-aos="zoom-in" data-aos-delay="100">
+				<h1>Genmar Dadivo</h1>
+				<p>I'm a <span class="typed" data-typed-items="Developer, Programmer, Freelancer"></span></p>
+				<div class="social-links">
+					<a class="facebook"><i class="bx bxl-facebook pointer"></i></a>
+					<a class="skype"><i class="bx bxl-skype pointer"></i></a>
+					<a class="gmail"><i class="bx bxl-gmail pointer"></i></a>
+				</div>
 			</div>
 		</section>
-		<div class="invitation-card">
-			<div class="cover">
-				<div class="book">
-					<label for="page-1" class="book__page book__page--1">
-					<img class="cover" src="assets/img/cover.jpg" alt="">
-					</label>
-					<label for="page-2" class="book__page book__page--4">
-						<div class="page__content">
-							<h1 class="page__content-title">God Parents</h1>
-							<table class="page__content-table">
-								<tr>
-									<td align="left">Mark Vincent Ocampo</td>
-									<td align="left">Rem Albert Villarey</td>
-									<td align="right">Allan Kim Martillo</td>
-								</tr>
-								<tr>
-									<td align="left">Gabriel Puyat</td>
-									<td align="left">Joshua Carambias</td>
-									<td align="right">Rico Balono</td>
-								</tr>
-							</table>
-							<div class="page__number vg">View Gallery</div>
+		<main id="main">
+			<section id="resume" class="resume">
+				<div class="container" data-aos="fade-up">
+					<div class="section-title">
+						<h2>Resume</h2>
+            			<p>I specialize in developing Web application, </p>
+					</div>
+					<div class="row">
+						<div class="col-lg-6">
+							<h3 class="resume-title">Sumary</h3>
+							<div class="resume-item pb-0">
+								<h4>Genmar Dadivo</h4>
+								<p><em>Innovative and deadline-driven Web developer with 5+ years of experience designing and developing user-friendly applications.</em></p>
+								<ul>
+									<li>Panghulo, Malabon</li>
+									<li>(+63) 906 913 0881</li>
+									<li>genmar.dadivo.25@gmail.com</li>
+								</ul>
+							</div>
+							<h3 class="resume-title">Education</h3>
+							<div class="resume-item">
+								<h4>Bachelor of Science in &amp; Information Technology</h4>
+								<h5>2013 - 2017</h5>
+								<p><em>City of Malabon University</em></p>
+							</div>
 						</div>
-					</label>
-					<!-- Resets the page -->
-					<input type="radio" name="page" id="page-1" />
-					<!-- Goes to the second page -->
-					<input type="radio" name="page" id="page-2" />
-					<label class="book__page book__page--2">
-						<div class="book__page-front">
-							<div class="page__content">
-								<h1 class="page__content-book-title">Christening</h1>
-								<h1 class="page__content-header">Join us for the Baptism of</h1>
-								<h2 class="page__content-author">Calix Grae</h2>
-								<p class="page__content-credits"> Sunday <span>Oct 23, 2022</span>
-								</p>
-								<p class="page__content-credits"> St. Gabriel the Archangel Parish </p>
-								<div class="page__content-copyright">
-									<p>Reception at the</p>
-									<p>02 Ayshire st. Bahay Toro Project 8, Quezon city</p>
+						<div class="col-lg-6">
+							<h3 class="resume-title">Professional Experience</h3>
+							<div class="resume-item">
+								<h4>Web Developer</h4>
+								<h5>2019 - Present</h5>
+								<p><em>Zesto Corporation</em></p>
+								<ul>
+									<li>Develop application that processes company's sales</li>
+									<li>Build a user-friendly interfaces</li>
+									<li>Managed multiple projects or tasks at a given time while under pressure</li>
+									<li>Created multiple application, consolidated into one system</li>
+								</ul>
+							</div>
+							<div class="resume-item">
+								<h4>Web Developer</h4>
+								<h5>2017 - 2019</h5>
+								<p><em>Pandayan Bookshop</em></p>
+								<ul>
+									<li>Developed numerous useful application such as (Ticketing system, Inventory management, Accounting system, Sales applications).</li>
+									<li>Managed multiple projects or tasks at a given time while under pressure</li>
+									<li>Recommended and consulted with users on the most appropriate functionalities</li>
+									<li>Created multiple application, consolidated into one system</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="portfolio" class="portfolio section-bg">
+				<div class="container" data-aos="fade-up">
+					<div class="section-title">
+						<h2>Portfolio</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+							<ul id="portfolio-flters">
+								<li data-filter="*" class="filter-active">All</li>
+								<li data-filter=".filter-app">Web App</li>
+								<li data-filter=".filter-contribution">Contribution</li>
+							</ul>
+						</div>
+					</div>
+					<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+						<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+							<div class="portfolio-wrap">
+								<img src="assets/img/portfolio/PBS CA/login.JPG" class="img-fluid" alt="">
+								<div class="portfolio-info">
+									<h4>Pandayan Central App</h4>
+									<div class="portfolio-links">
+										<a href="assets/img/portfolio/PBS CA/login.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Pandayan Central App"><i class="bx bx-plus"></i></a>
+										<a href="projects/app-pbs.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="book__page-back">
-							<div class="page__content">
-								<h1 class="page__content-title">God Parents</h1>
-								<table class="page__content-table">
-									<tr>
-										<td align="left" class="pricipal">Emerald Amurao</td>
-										<td align="left">Angela Manao</td>
-										<td align="right">Regine Ferrer</td>
-									</tr>
-									<tr>
-										<td align="left" class="pricipal">Marriane Juanitez</td>
-										<td align="left">Ericka Louise Deocareza</td>
-										<td align="right">Mariel Lobrigo</td>
-									</tr>
-									<tr>
-										<td align="left">Liezel Credo</td>
-										<td align="left">Cristina De Chavez</td>
-										<td align="right">Mary Chris Dulatre</td>
-									</tr>
-									<tr>
-										<td align="left">Anabelle Banico</td>
-										<td align="left">Edelyn Seastres</td>
-										<td align="right">Rica Aira Santiago</td>
-									</tr>
-									<tr>
-										<td align="left">Daisyrie Santos</td>
-										<td align="left">Lourwin Ariza</td>
-										<td align="right">Ricardo Eslopor</td>
-									</tr>
-								</table>
-								<div class="page__number"></div>
+						<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+							<div class="portfolio-wrap">
+								<img src="assets/img/portfolio/ZESTO/login.JPG" class="img-fluid" alt="">
+								<div class="portfolio-info">
+									<h4>Zest CARs</h4>
+									<div class="portfolio-links">
+										<a href="assets/img/portfolio/ZESTO/login.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Zest CARs"><i class="bx bx-plus"></i></a>
+										<a href="projects/app-zest.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
+									</div>
+								</div>
 							</div>
 						</div>
-					</label>
-				</div>
-			</div>
-		</div>
-		<div class="container custom-m-1 gallery hidden mt-5">
-			<div class="row">
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05504.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img data-src="assets/img/gallery/DSC05504-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
-				</div>
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05509.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img data-src="assets/img/gallery/DSC05509-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
+						<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+							<div class="portfolio-wrap">
+								<img src="assets/img/portfolio/SFH/login.JPG" class="img-fluid" alt="">
+								<div class="portfolio-info">
+									<h4>Scents for help</h4>
+									<div class="portfolio-links">
+										<a href="assets/img/portfolio/SFH/login.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Scents for help"><i class="bx bx-plus"></i></a>
+										<a href="projects/app-sfh.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+							<div class="portfolio-wrap">
+								<img src="assets/img/portfolio/ALM/home.JPG" class="img-fluid" alt="">
+								<div class="portfolio-info">
+									<h4>Asset Label Maker</h4>
+									<div class="portfolio-links">
+										<a href="assets/img/portfolio/ALM/home.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Asset Label Maker"><i class="bx bx-plus"></i></a>
+										<a href="projects/app-alm.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 portfolio-item filter-contribution hidden">
+							<div class="portfolio-wrap">
+								<img src="assets/img/portfolio/ALM/home.JPG" class="img-fluid" alt="">
+								<div class="portfolio-info">
+									<h4>Asset Label Maker</h4>
+									<div class="portfolio-links">
+										<a href="assets/img/portfolio/ALM/home.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Asset Label Maker"><i class="bx bx-plus"></i></a>
+										<a href="projects/app-alm.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Project Details"><i class="bx bx-link"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05539.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img data-src="assets/img/gallery/DSC05539-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
 				</div>
-				<div class="col">    
-					<a class="low-reso" href="assets/img/gallery/DSC05584.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img src="assets/img/gallery/DSC05584-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
+			</section>
+			<section id="testimonials" class="testimonials section-bg hidden">
+				<div class="container" data-aos="fade-up">
+					<div class="section-title">
+						<h2>Testimonials</h2>
+					</div>
+					<div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="testimonial-item">
+									<img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+									<h3>Saul Goodman</h3>
+									<h4>Ceo &amp; Founder</h4>
+									<p>
+										<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+										molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+										numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+										optio, eaque rerum!
+										<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="testimonial-item">
+									<img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+									<h3>Sara Wilsson</h3>
+									<h4>Designer</h4>
+									<p>
+										<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+										molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+										numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+										optio, eaque rerum!
+										<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="testimonial-item">
+									<img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+									<h3>Jena Karlis</h3>
+									<h4>Store Owner</h4>
+									<p>
+										<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+										molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+										numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+										optio, eaque rerum!
+										<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="testimonial-item">
+									<img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+									<h3>Matt Brandon</h3>
+									<h4>Freelancer</h4>
+									<p>
+										<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+										molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+										numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+										optio, eaque rerum!
+										<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="testimonial-item">
+									<img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+									<h3>John Larson</h3>
+									<h4>Entrepreneur</h4>
+									<p>
+										<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+										Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+										<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section id="contact" class="contact">
+				<div class="container" data-aos="fade-up">
+					<div class="section-title">
+						<h2>Contact</h2>
+					</div>
+					<div class="row mt-1">
+						<div class="col-lg-4">
+							<div class="info">
+								<div class="email">
+									<i class="bi bi-envelope"></i>
+									<h4>Email:</h4>
+									<p>genmar.dadivo.25@gmail.com</p>
+								</div>
+								<div class="phone">
+									<i class="bi bi-phone"></i>
+									<h4>Call:</h4>
+									<p>(+63) 906 913 0881</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-8 mt-5 mt-lg-0">
+							<form method="post" role="form" class="php-email-form">
+								<div class="row">
+									<div class="col-md-6 form-group">
+										<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" autocomplete="off" required>
+									</div>
+									<div class="col-md-6 form-group mt-3 mt-md-0">
+										<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" autocomplete="off" required>
+									</div>
+								</div>
+								<div class="form-group mt-3">
+									<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" autocomplete="off" required>
+								</div>
+								<div class="form-group mt-3">
+									<textarea class="form-control" name="message" rows="5" placeholder="Message" autocomplete="off" required></textarea>
+								</div>
+								<div class="my-3">
+									<div class="loading">Loading</div>
+									<div class="error-message"></div>
+									<div class="sent-message">Your message has been sent. Thank you!</div>
+								</div>
+								<div class="text-center"><button type="submit">Send Message</button></div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer id="footer">
+			<div class="container">
+				<div class="social-links">
+					<a class="facebook"><i class="bx bxl-facebook pointer"></i></a>
+					<a class="skype"><i class="bx bxl-skype pointer"></i></a>
+					<a class="gmail"><i class="bx bxl-gmail pointer"></i></a>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05585.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img src="assets/img/gallery/DSC05585-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
-				</div>
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05590.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img src="assets/img/gallery/DSC05590-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
-				</div>
-				<div class="col">    
-					<a class="low-reso" href="assets/img/gallery/DSC05631.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img src="assets/img/gallery/DSC05631-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
-				</div>
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05637.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img src="assets/img/gallery/DSC05637-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05639.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img src="assets/img/gallery/DSC05639-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
-				</div>
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05659.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img src="assets/img/gallery/DSC05659-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
-				</div>
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05668.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img src="assets/img/gallery/DSC05668-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
-				</div>
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05670.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img src="assets/img/gallery/DSC05670-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05687.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img src="assets/img/gallery/DSC05687-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
-				</div>
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05718.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img src="assets/img/gallery/DSC05718-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
-				</div>
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05736.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img src="assets/img/gallery/DSC05736-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
-				</div>
-				<div class="col">
-					<a class="low-reso" href="assets/img/gallery/DSC05736.jpg" data-lightbox="lightbox" data-gallery="gallery">
-						<img src="assets/img/gallery/DSC05736-min.jpg" class="img-thumbnail rounded lazy">
-					</a>
-				</div>
-			</div>
-		</div>
-		
-		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-		<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
-		<script type="text/javascript" src="assets/plugins/lb/js/lightbox-plus-jquery.min.js"></script>
-		<script type="text/javascript" src="assets/js/lazyload.min.js"></script>
-		<script type="text/javascript" src="assets/js/script.js"></script>
+		</footer>
+		<div id="preloader"></div>
+		<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+		<script src="assets/vendor/purecounter/purecounter.js"></script>
+		<script src="assets/vendor/aos/aos.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+		<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+		<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+		<script src="assets/vendor/typed.js/typed.min.js"></script>
+		<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+		<script src="assets/vendor/jquery/jquery-3.5.1.min.js"></script>
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>
