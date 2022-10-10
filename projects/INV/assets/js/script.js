@@ -1,9 +1,12 @@
 $(document).ready(function() {
-    $("<img/>")
-    .on('load', function() { $('.loading-screen').fadeOut(); })
-    .on('error', function() { console.log("error loading image"); })
-    .attr("src", $(originalImage).attr("src"))
-;
+    $('img').each(function(){
+        var img = new Image();
+        img.onload = function() {
+            console.log($(this).attr('src') + ' - done!');
+            $('.loading-screen').fadeOut();
+        }
+        img.src = $(this).attr('src');
+    })
     
     // var container = document.getElementById("container");
     
